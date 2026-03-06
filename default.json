@@ -15,6 +15,10 @@
       "matchUpdateTypes": ["minor"],
       "matchCurrentVersion": "!/^0/",
       "automerge": true
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "automerge": true
     }
   ]
 }
