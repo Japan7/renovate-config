@@ -8,7 +8,7 @@
       "rangeStrategy": "pin"
     },
     {
-      "matchPackageNames": ["fastapi"],
+      "matchPackageNames": ["fastapi", "uvicorn"],
       "allowedVersions": "<1",
       "automerge": true
     }
