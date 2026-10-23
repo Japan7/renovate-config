@@ -6,6 +6,11 @@
       "matchDepTypes": ["dependencies"],
       "excludeDepNames": ["python"],
       "rangeStrategy": "pin"
+    },
+    {
+      "matchPackageNames": ["fastapi"],
+      "allowedVersions": "<1",
+      "automerge": true
     }
   ]
 }
